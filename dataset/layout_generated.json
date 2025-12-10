@@ -1,0 +1,61 @@
+{
+  "canvas": {
+    "width": 1400,
+    "height": 3000
+  },
+  "grid": {
+    "cols": 12,
+    "rows": 12,
+    "gutter": 16
+  },
+  "components": [
+    {
+      "id": "title",
+      "type": "text",
+      "content": "Elevate Your Wardrobe",
+      "area": {
+        "col_start": 1,
+        "col_end": 12,
+        "row_start": 1,
+        "row_end": 2
+      },
+      "align": "center"
+    },
+    {
+      "id": "primary_image",
+      "type": "image",
+      "src": "https://images.unsplash.com/photo-1628688245682-e28256a1aaed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzUxNTR8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwbWVuJTI3cyUyMGJsdWUlMjBjb3R0b24lMjBzaGlydHxlbnwwfHx8fDE3NTg1NjI1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "area": {
+        "col_start": 4,
+        "col_end": 9,
+        "row_start": 3,
+        "row_end": 8
+      },
+      "fit": "contain"
+    },
+    {
+      "id": "description",
+      "type": "text",
+      "content": "Discover the Perfect Fit in Premium Cotton\nUnmatched Comfort, Unforgettable Style\nCrafted for the Modern Man\nAvailable in Sizes S-XL for Every Body",
+      "area": {
+        "col_start": 2,
+        "col_end": 11,
+        "row_start": 9,
+        "row_end": 11
+      },
+      "align": "left"
+    },
+    {
+      "id": "logo",
+      "type": "image",
+      "src": "",
+      "area": {
+        "col_start": 11,
+        "col_end": 12,
+        "row_start": 1,
+        "row_end": 2
+      },
+      "fit": "contain"
+    }
+  ]
+}
